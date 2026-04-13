@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const Card = ({book}) => {
   return (
-    <div className=' p-6 border border-white '>
+    <Link to={`/BooksDetails/${book.bookId}`} className=' p-6 border border-white '>
 
       <div >
 
@@ -37,7 +38,7 @@ const Card = ({book}) => {
   </div>
       </div>
       
-    </div>
+    </Link>
   );
 };
 
