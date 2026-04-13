@@ -1,7 +1,7 @@
 import React from 'react';
 import Banner from '../../../Component/Banner/Banner';
-
-const Home = () => {
+ 
+const Home = () => { 
   return (
     <div>
              <Banner></Banner>

@@ -5,7 +5,7 @@ import Navbar from "../shared/Navbar/Navbar";
  export const MainLayout =() => {
   return (
     <div>
-           <Navbar ></Navbar>
+           <Navbar></Navbar>
           <Outlet></Outlet>
           
     </div>

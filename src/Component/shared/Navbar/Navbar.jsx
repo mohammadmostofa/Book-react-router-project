@@ -46,7 +46,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end gap-4">
     <button className='btn btn-success capitalize' >Sign in</button>
-    <button className='btn btn-accent' capitalize>Sign up</button>
+    <button className='btn btn-accent capitalize '>Sign up</button>
   </div>
 </div>
   </div>

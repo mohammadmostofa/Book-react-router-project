@@ -5,7 +5,8 @@ const Banner = () => {
     <div>
 
       <div className="hero bg-base-200 ">
-  <div className=" min-h-[95vh]  hero-content flex-col lg:flex-row-reverse flex justify-between items-center container mx-auto ">
+  <div className=" min-h-[95vh]  hero-content flex-col lg:flex-row-reverse flex justify-between items-center 
+  container mx-auto ">
     <img
       src='/hero_img.jpg'
       className=" rounded-lg shadow-2xl"
@@ -17,6 +18,7 @@ const Banner = () => {
 
       </div>
     </div>
+    
   </div>
 </div>
       
